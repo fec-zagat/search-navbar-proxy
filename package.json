@@ -1,17 +1,29 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
+  "name": "search-nav-proxy",
+  "description": "> Project description",
   "author": "",
-  "license": "",
+  "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "nodemon ./server.js"
   },
   "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
-  }
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fec-zagat/search-navbar-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fec-zagat/search-navbar-proxy/issues"
+  },
+  "homepage": "https://github.com/fec-zagat/search-navbar-proxy#readme"
 }
